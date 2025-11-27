@@ -171,14 +171,28 @@ a {
     color: #FFFFFF;
     margin-bottom: 1rem;
     line-height: 1.1;
+    
+    /* --- NEW CHANGE: Text Shadow --- */
+    /* This adds a dark blur behind the text so it stands out against the snow */
+    text-shadow: 0 4px 20px rgba(0, 0, 0, 0.6);
 }
 
 .hero-subtitle {
     font-family: var(--font-sans);
-    color: #E0E0E0;
+    
+    /* --- NEW CHANGE: Color to Pure White --- */
+    /* Old color was #E0E0E0 (light grey). Pure white is brighter. */
+    color: #FFFFFF; 
+    
     font-size: 1.25rem;
     margin-bottom: 2rem;
     max-width: 600px;
+    
+    /* --- NEW CHANGE: Thicker Text --- */
+    font-weight: 500; 
+    
+    /* --- NEW CHANGE: Stronger Shadow --- */
+    text-shadow: 0 2px 10px rgba(0, 0, 0, 0.8);
 }
 
 /* FIRM SECTION */
@@ -475,4 +489,5 @@ a {
 /* But when the menu opens (Navy background), turn bars back to white so we can see them */
 .career-page .hamburger.active .bar {
     background-color: #FFFFFF;
+
 }
