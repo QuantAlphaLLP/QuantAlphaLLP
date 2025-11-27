@@ -104,7 +104,7 @@ a {
     cursor: pointer;
 }
 
-/* The "View Career" Button */
+/* The "View Careers" Button */
 .btn-career {
     background-color: var(--accent-teal);
     color: #FFFFFF;
@@ -491,3 +491,4 @@ a {
     background-color: #FFFFFF;
 
 }
+
